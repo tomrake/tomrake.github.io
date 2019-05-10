@@ -19,6 +19,7 @@ I have also worked:
 * in Pharo - Smalltalk.
 * on renewable energy methods and markets.
 * somtimes in R.
+* mainly in emacs and seldom in vi.
 * architectural drafting in AutoCAD.
 * 6502 programming on an Apple ][
 * analysis of the waterpark industry
