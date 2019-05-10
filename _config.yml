@@ -24,10 +24,11 @@ description:  My personal code wanderings.
 # List of links in the navigation bar
 navbar-links:
   About Me: "about"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+  LISP Resources:
+    - SBCL: "http://www.sbcl.org/"
+    - emacs: "https://www.gnu.org/software/emacs/"
+    - quicklisp: "https://www.quicklisp.org/beta/"
+    - Common-Lisp-On-Reddit: "https://www.reddit.com/r/common_lisp"
 #  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
