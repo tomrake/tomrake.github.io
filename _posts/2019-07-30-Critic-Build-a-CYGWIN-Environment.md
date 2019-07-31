@@ -1,5 +1,5 @@
 ---
-title: Critic of Build a Cygwin Environment: Cycle 1
+title: Critic of Build a Cygwin Environment - Cycle 1
 layout: post
 catagories: [cygwin, docker, base-environment, critic]
 ---
