@@ -3,6 +3,8 @@ title: Critic of Build a Cygwin Environment - Cycle 1
 layout: post
 catagories: [cygwin, docker, base-environment, critic]
 ---
+# This Critic close see Cycle 2
+
 # Critic of Build a CYGWIN environment in docker.
 
 ## AddUser needs debgging fails to work as expected
@@ -34,3 +36,9 @@ dir | Unblock-File
 to Unblock all files in the directory.
 
 ### How do I automate these the install process?
+
+# The first iteration is over
+
+- Set next interation.
+- Restate the CYGWIN enviroment for testing and building
+- Consider using Selenium / Appium tools
