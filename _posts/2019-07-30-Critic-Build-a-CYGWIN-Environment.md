@@ -41,4 +41,4 @@ to Unblock all files in the directory.
 
 - Set next interation.
 - Restate the CYGWIN enviroment for testing and building
-- Consider using Selenium / Appium tools
+- Consider using Selenium / Appium tool

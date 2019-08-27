@@ -5,9 +5,17 @@ catagories: [cygwin, docker, base-environment, appium]
 ---
 # Construct a base cygwin docker environment
 
+Using Appium and inspect.exe script can be written to automate the cygwin download and install.
+
+Phase one is to test that a target can be build, where the source is my machine the appium host. The cygwin image is copied to the target machine from my build host.
+
+Phase two is to see if the build can be done on the target machine directly.
+
+Phase three is to have the appium host in a separate docker container.
+
 ## systems needed
 
-- Node.js host which includes the Appium server.
+- appium host - Node.js host which includes the Appium server.
 - target - the docker container being built.
 - cygwin install host - this may be the target host or a separate host.
 
