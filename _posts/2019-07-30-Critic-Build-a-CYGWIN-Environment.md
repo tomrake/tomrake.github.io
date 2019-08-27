@@ -3,11 +3,11 @@ title: Critic of Build a Cygwin Environment - Cycle 1
 layout: post
 catagories: [cygwin, docker, base-environment, critic]
 ---
-# This Critic close see Cycle 2
+# This Critic closed see Cycle 2
 
 # Critic of Build a CYGWIN environment in docker.
 
-## AddUser needs debgging fails to work as expected
+## AddUser needs debugging, fails to work as expected
 
 ## Build the base CYGWIN environment.
 
