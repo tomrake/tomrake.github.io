@@ -25,7 +25,7 @@ the following needs to be considered.
 - Proof of concepts demostrates how to perform a certain activity leading to
 documentation and/or coding of a Task.
 - Issues about ports and appium for direct WebAppDriver relate to "the stucture" of the proposed solution to a task.
-- A Coded Structure is prefered over a Documented Structure."
+- A Coded Structure is prefered over a Documented Structure.
 
 
 ## Resources
