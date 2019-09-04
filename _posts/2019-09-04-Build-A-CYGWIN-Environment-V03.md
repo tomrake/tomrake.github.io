@@ -50,7 +50,7 @@ The navigation of the CYGWIN GUI to install a package list could be a very compl
 # Status of support methods
 
 
-- orchestation design, still in exploration or **hacking** phase.
+- orchestration design, still in exploration or **hacking** phase.
 - GUI Install toolkit, about 70% hacked, javascript based.
 - GUI Install toolkit, GUI element extraction had been in (POC) proof of concept for weeks.
 - GUI Install toolki in LISP, about 10% hacked.
