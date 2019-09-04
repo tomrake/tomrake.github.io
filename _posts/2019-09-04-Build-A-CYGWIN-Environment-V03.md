@@ -5,11 +5,14 @@ catagories: [cygwin, docker, base-environment, appium]
 ---
 ## This view is of a higher level
 
-To allow docker *process isolation* of our target container we start with a specific version container. It is desired that this process will work for all relased OS versions.
+To allow docker **process isolation** of our target container we start with a specific version container. It is desired that this process will work for all relased OS versions.
 
 ## Using GUI Install of a component...
 
-Large complexities of any scripted **GUI install**, require a design period to create extract the necessary remote element info from the GUI, an install method design and debug process, an **orchestraion design** from the **GUI install toolkit**.
+Large complexities of any scripted **GUI install**,
+require a design period to create extract the necessary GUI element info,
+an install method design and debug process,
+an **orchestraion design** using **GUI install toolkit**.
 
 
 ## ... or not
@@ -17,10 +20,15 @@ Large complexities of any scripted **GUI install**, require a design period to c
 Downloads of installers with command line execution using docker.
 Copying of files and folders using docker.
 
+# The Overview of the building process
 
 ### 1) Start with a base container.
 
-### 2) Crete a WinAppDriver enabled container.
+Choose a container version that can be used with docker --isolation=process.
+The derived containers will use less resources,
+there is a security trade-off in this decision.
+
+### 2) Create a WinAppDriver enabled container.
 
 Using the **WinAppDriver Install Process** is expected to be non-GUI.
 
@@ -37,4 +45,17 @@ There is a choice to use a externally developed script to update installed cygwi
 apt-cyg is a command line like cygwin updater given a package list and the install can is done.
 
 The navigation of the CYGWIN GUI to install a package list could be a very complex script. This put the entire process under our control.
+
+
+# Status of support methods
+
+
+- orchestation design, still in exploration or **hacking** phase.
+- GUI Install toolkit, about 70% hacked, javascript based.
+- GUI Install toolkit, GUI element extraction had been in (POC) proof of concept for weeks.
+- GUI Install toolki in LISP, about 10% hacked.
+- apt-cyg install is an alpha product.
+- docker, download and script install are 90% POC
+
+
 
