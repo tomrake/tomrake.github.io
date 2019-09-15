@@ -58,4 +58,17 @@ The navigation of the CYGWIN GUI to install a package list could be a very compl
 - docker, download and script install are 90% POC
 
 
+# Update of design
+`setup-x86_64.exe` has a the `-P package1,package2,package3, ... packageN` format, this can be used in CMD mode to install cygwin and additional packages.
+
+Now `setup-x86_64.exe` needs to be downloaded from a website, `https://cygwin.com/setup-x86_64.exe`. Using Powershell and System.NetWebClient
+
+```
+$url = "https://cygwin.com/setup-x86_64.exe"
+$output = "/setup-x86_64.exe"
+
+$wc = New-Object System.Net.WebClient
+$wc.DownloadFile($url, $output)
+```
+
 
