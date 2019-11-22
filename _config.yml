@@ -1,4 +1,4 @@
-# --- General options --- #
+.# --- General options --- #
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
@@ -24,6 +24,8 @@ description:  My personal code wanderings.
 # List of links in the navigation bar
 navbar-links:
   About Me: "about"
+  Projects:
+    - "The Invaders": "https://tomrake.github.io/the-invaders/"
   LISP Resources:
     - SBCL: "http://www.sbcl.org/"
     - emacs: "https://www.gnu.org/software/emacs/"
