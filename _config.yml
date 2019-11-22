@@ -25,7 +25,7 @@ description:  My personal code wanderings.
 navbar-links:
   About Me: "about"
   Projects:
-    - "The Invaders": "https://tomrake.github.io/the-invaders/"
+    - The-Invaders: "https://tomrake.github.io/the-invaders/"
   LISP Resources:
     - SBCL: "http://www.sbcl.org/"
     - emacs: "https://www.gnu.org/software/emacs/"
