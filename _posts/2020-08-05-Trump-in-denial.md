@@ -27,8 +27,8 @@ On July 7,2020 I posted a tweet about a graphic in a tweet posted by the
 Trump War Room. Which includes a disclaimer about CFR (Case Fatality Rate) being a poor
 metric of fatality rate of the virus.
 
-The president has waved around graphs during the Jonathon Swan interview which
-look very much like CFR graphs for the USA.
+The president has waved around graphs during the Jonathon Swan interview,
+what is the source of those charts.
 During the interview Trump insisted that cases are the only thing that mattered
 and per capita death rates are to me ignored.
 This is not a rational position.
