@@ -21,6 +21,8 @@ Pleasing Trump is more important than factual presenttions.
 Reality has a very tough way of presenting itself in light of the coronavirus.
 But the rosy supporters may just move on.
 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ever read the fine print? <br><br>&quot;During a pandemic outbreak CFR is a poor measure of fatality rate for the disease.&quot; <br><br>It is on your graphic? <a href="https://t.co/iloz5MpN10">https://t.co/iloz5MpN10</a></p>&mdash; IsWhatItIsRake (@tomrake) <a href="https://twitter.com/tomrake/status/1280707373594750977?ref_src=twsrc%5Etfw">July 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 On July 7,2020 I posted a tweet about a graphic in a tweet posted by the
 Trump War Room. Which includes a disclaimer about CFR (Case Fatality Rate) being a poor
 metric of fatality rate of the virus.
