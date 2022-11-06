@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: Older Guy, LISPing from time to time.
 
 # Your name to show in the footer
-author: Some Person
+author: Tom Rake
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,17 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  Projects:
+    - The-Invaders: "https://tomrake.github.io/the-invaders/"
+  LISP Resources:
+    - SBCL: "http://www.sbcl.org/"
+    - emacs: "https://www.gnu.org/software/emacs/"
+    - quicklisp: "https://www.quicklisp.org/beta/"
+    - Common-Lisp-On-Reddit: "https://www.reddit.com/r/common_lisp"
+  This Theme:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+
+
 
 ################
 # --- Logo --- #
@@ -32,10 +39,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/2022-11-06-2665605.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -49,13 +56,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "tomrake@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+#  facebook: deanattali
+  github: tomrake
+  twitter: tomrake
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -70,7 +77,7 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
+   mastodon: mastodon.social/@tomrake
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: invite/invite_code or users/userid 

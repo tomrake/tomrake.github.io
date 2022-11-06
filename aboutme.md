@@ -1,16 +1,31 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: How to ignore this blog
+permalink: /aboutme/
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Wow! I am a 61 year old, Computer Engineering graduate.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Why you should ignore this blog
 
-What else do you need?
+Largely this blog is notes to myself on little fussy topics, where things do not work
+as expected. Lately I have been working/playing with LISP.
 
-### My story
+I have also worked:
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+* mostly in Windows but
+* sometimes in Linux decades ago.
+* in java and  eclipse.
+* in Pharo - Smalltalk.
+* on renewable energy methods and markets.
+* somtimes in R.
+* mainly in emacs and seldom in vi.
+* architectural drafting in AutoCAD.
+* 6502 programming on an Apple ][
+* analysis of the waterpark industry
+* Assembly on a CDC 6400
+* a treasurer for a third party congressional candidate.
+
+### Contact me
+
+[zzzap1957@gmail.com](mailto:zzzap1957@gmail.com)
