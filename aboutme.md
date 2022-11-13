@@ -4,7 +4,7 @@ title: How to ignore this blog
 permalink: /aboutme/
 ---
 
-Wow! I am a 61 year old, Computer Engineering graduate.
+Wow! I am a 65 year old, Computer Engineering graduate.
 
 ### Why you should ignore this blog
 
