@@ -23,6 +23,8 @@ navbar-links:
   About Me: "aboutme"
   Projects:
     - The-Invaders: "https://tomrake.github.io/the-invaders/"
+    - My Project Skel: "https://tomrake.github.io/my-project-skel/"
+    - SDL-Loader: "https://tomrake.github.io/sdl-loader/"
   LISP Resources:
     - SBCL: "http://www.sbcl.org/"
     - emacs: "https://www.gnu.org/software/emacs/"
