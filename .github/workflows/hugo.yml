@@ -1,4 +1,5 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# This is a User Page build.
+# Website source is default "." rendered to "./public".
 name: Deploy Hugo site to Pages
 
 on:
