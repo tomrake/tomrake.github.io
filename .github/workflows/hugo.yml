@@ -61,7 +61,7 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --debug \
+            --logLevel debug \
             --source "docs" \
             --destination "../public" \
             --minify \
