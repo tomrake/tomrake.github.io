@@ -4,8 +4,6 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/muck/</loc>
-  </url><url>
     <loc>http://localhost:1313/historic/2019-04-29-hello-world/</loc>
   </url><url>
     <loc>http://localhost:1313/historic/2022-11-16-0001-disqus-comments/</loc>
