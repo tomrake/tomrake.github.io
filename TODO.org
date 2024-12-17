@@ -1,0 +1,11 @@
+#+TITLE: To do items for test-blog
+
+* TODO what is the pre! Twitter post! about?
+
+* TODO Add a posting date to each blog post.
+
+* TODO Add the image to the Trump is in Denial Page
+
+* TODO Fix the DISQUE  Page
+
+* TODO Change the Side Bar sort order to by date.
