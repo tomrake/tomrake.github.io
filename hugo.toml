@@ -4,8 +4,8 @@ baseURL = "https://example.com"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "My Hugo Techdoc Site"
-theme = "hugo-theme-techdoc"
+title = "My Beautiful Hugo Site"
+theme = "beautifulhugo"
 
 hasCJKLanguage = true
 metaDataFormat = "yaml"
