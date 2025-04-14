@@ -4,15 +4,71 @@ baseURL = "https://example.com"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "My Beautiful Hugo Site"
+title = "Older Guy, LISPing from time to time."
 theme = "beautifulhugo"
-
+author = "Tom Rake"
 hasCJKLanguage = true
 metaDataFormat = "yaml"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
+[frontmatter]
+  date = [':filename', ':default']
+  lastmod = ['lastmod', ':fileModTime']
+
+[params.author]
+name = "Tom Rake"
+email = "tom.rake@gmail.com"
+github = "tomrake"
+bluesky = "tomrake"
+
+[[menu.main]]
+name = "About Me"
+url = "about"
+mastodon = "mastodon.social/@tomrake"
+
+[[menu.main]]
+name = "Projects"
+identifier = "projects"
+
+[[menu.main]]
+parent = "projects"
+name = "The-Invaders"
+url = "https://tomrake.github.io/the-invaders/"
+[[menu.main]]
+parent = "projects"
+name = "My Project Skel"
+url = "https://tomrake.github.io/my-project-skel/"
+
+[[menu.main]]
+parent = "projects"
+name  = "SDL-Loader"
+url = "https://tomrake.github.io/sdl-loader/"
+
+[[menu.main]]
+name = "LISP Resources"
+identifier = "lisp-resources"
+
+[[menu.main]]
+parent = "lisp-resources"
+name = "SBCL"
+url = "https://www.sbcl.org"
+[[menu.main]]
+parent = "lisp-resources"
+name = "emacs"
+url = "https://www.gnu.org/software/emacs/"
+[[menu.main]]
+parent = "lisp-resources"
+name = "quicklisp"
+url = "https://www.quicklisp.org/beta/"
+
+[[menu.main]]
+
+parent = "lisp-resources"
+name = "Common-Lisp-On-Reddit"
+url ="https://www.reddit.com/r/common_lisp"
+
 
 [params]
 
