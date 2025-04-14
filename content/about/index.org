@@ -1,0 +1,59 @@
+#+TITLE: How to ignore this blog
+#+LAYOUT: page
+#+PERMALINK: /about
+
+* Quick Intro
+
+I am a 67-year-old, Computer Engineering graduate, Lehigh '79!  and East Stroudsburg High School '75! and Middle Smithfield School '69!
+
+I recomend [[https://www.dogshirtdaily.com/][Dog Shirt Daily]] and [[https://www.youtube.com/@DogShirtTV][Dog Shirt TV]] where [[https://www.brookings.edu/people/benjamin-wittes/][Ben Wittes]] of [[https://www.lawfaremedia.org/][Lawfare]] along with guests discuss legal, political and, nation security matters.
+This is a reboot of [[https://inlieuof.fun/][In Lieu of Fun Show]] which is what think tank people during the COVID lockdowns.
+Today I do most of my political writing on  [[https://tomrake.substack.com/]]
+
+* Years Technical Experiences
+- mostly in Windows but
+- [[https://www.linux.org/][Linux]] under [[https://debian.org/][Debian]] decades ago.
+- [[https://www.java.com/en/][java]] and [[https://eclipse.org][eclipse]]  parsed geodata files and generated maps.
+- [[https://pharo.org/][Pharo]] - Smalltalk.
+- on renewable energy methods and markets.
+- sometimes in [[https://www.r-project.org/][R]].
+- mainly in emacs
+- several years of architectural drafting in [[https://www.autodesk.com/products/autocad/overview?mktvar002=5396764|SEM|328349723|1152288837888718|kwd-72018828340442:loc-190&utm_source=BNG&utm_medium=SEM&utm_campaign=BNG_ACAD_AutoCAD_AMER_US_eComm_SEM_BR_New_EX_ADSK_5396764_General&utm_id=5396764&utm_term=kwd-72018828340442:loc-190&ef_id=551a5fc7490517b0dcea383a5ad73221:G:s&s_kwcid=AL!11172!10!72018231065784!72018828340442&mkwid=s|pcrid||pkw|autocad|pmt|e|pdv|c|slid||pgrid|1152288837888718|ptaid|kwd-72018828340442:loc-190|pid|&utm_medium=cpc&utm_source=bing&utm_campaign=GGL_AME_AutoCAD_AMER_US_eComm_SEM_BR_New_EX_ADSK_3445231_General&utm_term=autocad&utm_content=s|pcrid||pkw|autocad|pmt|e|pdv|c|slid||pgrid|1152288837888718|ptaid|kwd-72018828340442:loc-190|&msclkid=551a5fc7490517b0dcea383a5ad73221][AutCAD]].
+- [[http://www.6502.org/][6502]] programming on an [[https://en.wikipedia.org/wiki/Apple_II][Apple ||]]
+- analysis of the waterpark industry
+- Assembly on a [[https://en.wikipedia.org/wiki/CDC_6000_series][CDC 6400]] while in college.
+- a treasurer for a third party congressional candidate.
+- And LISP with  [[https://www.sbcl.org/][SBCL]], [[https://www.gnu.org/software/emacs/][emacs]] & [[https://slime.common-lisp.dev/][slime]]
+
+Where I post stuff
+| Place                      | Link or name                  | Checked |
+|----------------------------+-------------------------------+---------|
+| Email                      | [[mailto:tom.rake@gmail.com]]     | Daily   |
+| BlueSky                    | [[https://bsky.app/tomrake]]      | Daily   |
+| X formerly known a Twitter | A former member               | Never   |
+| Facebook                   | [[https://www.facebook.com/tom.rake][tom.rake]]                      | Weekly  |
+| Github                     | [[https://github.com/tomrake][tomrake]]                       | Weekly  |
+| substack                   | [[https://tomrake.substack.com/]] | Weekly  |
+|                            |                               |         |
+
+* This site is mainly a blog
+
+** It first started as a bunch of notes
+
+While working on various coding projects I would note various things.
+
+Previously this blog is mainly technical notes to myself, where things do not work
+as expected. Lately I have been working/playing with LISP.
+
+*  
+
+
+
+
+
+
+
+
+*** Contact me
+My technical stuff email [[mailto:zzzap1957@gmail.com]]
+
