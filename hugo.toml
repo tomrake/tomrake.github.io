@@ -27,10 +27,12 @@ bluesky = "tomrake"
 name = "About Me"
 url = "about"
 mastodon = "mastodon.social/@tomrake"
+weight = 10
 
 [[menu.main]]
 name = "Projects"
 identifier = "projects"
+weight = 20
 
 [[menu.main]]
 parent = "projects"
@@ -49,6 +51,7 @@ url = "https://tomrake.github.io/sdl-loader/"
 [[menu.main]]
 name = "LISP Resources"
 identifier = "lisp-resources"
+weight = 30
 
 [[menu.main]]
 parent = "lisp-resources"
@@ -69,6 +72,14 @@ parent = "lisp-resources"
 name = "Common-Lisp-On-Reddit"
 url ="https://www.reddit.com/r/common_lisp"
 
+[[menu.main]]
+name = "Theme"
+identifier = "theme"
+
+[[menu.main]]
+parent = "theme"
+name = "Beautiful Hugo"
+url = "https://github.com/tomrake/beautifulhugo"
 
 [params]
 
