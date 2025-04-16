@@ -36,24 +36,5 @@ Where I post stuff
 | substack                   | [[https://tomrake.substack.com/]] | Weekly  |
 |                            |                               |         |
 
-* This site is mainly a blog
-
-** It first started as a bunch of notes
-
-While working on various coding projects I would note various things.
-
-Previously this blog is mainly technical notes to myself, where things do not work
-as expected. Lately I have been working/playing with LISP.
-
-*  
-
-
-
-
-
-
-
-
-*** Contact me
-My technical stuff email [[mailto:zzzap1957@gmail.com]]
-
+* About my blog
+See [[/about-blogs][About by Blog and Blogging]].

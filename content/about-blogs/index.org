@@ -1,0 +1,37 @@
+#+TITLE: Notes, Blogs and Publishing
+#+LAYOUT: page
+#+PERMALINK: /about-blogs
+
+* My process of work
+** Notebooks
+I use written notes to sketch out topics during concentrated design consideration or when away from my computer.
+
+** Internal Technical Blog
+I use an org blog to store research information and thoughts about short-term tasks.
+I do not review these items for communications as these are notes to myself and debugging logs.
+** The github blog
+My [[https://tomrake.github.io][tomrake.github.io]] was largely conceived to express the technical programming and coding problems encountered while working.
+The blog is for public consumption but, I have not historically reviewed the writing.
+* Historic Practice
+The story of the evolution of my github blog.
+** [[https://github.com/daattali/beautiful-jekyll][Beautiful Jekyll]]
+ [[https://tomrake.github.io][tomrake.github.io]] was started with a clone of  [[https://github.com/daattali/beautiful-jekyll][Beautiful Jekyll]] but updating that system became difficult, I then started researching other static site generators and decided to move to Hugo.
+ [[https://tomrake.github.io][tomrake.github.io]] was not updated for several years.
+** [[https://gohugo.io/][Hugo]]
+During 2024, I began adding blog and documentation pages to my project which were done in hugo.
+I did a deep dive on [[https://gohugo.io/][Hugo]] and [[https://themes.gohugo.io/][Hugo themes]].
+The week of April 13, 2025, "pulled the trigger" to update the  [[https://tomrake.github.io][tomrake.github.io]]  and wrote this entry.
+** step-security
+Github actions could be used for nefarious purposes to avoid compromise all action dependencies need to be evaluated.
+I rely on step-security to evaluate the action dependencies I use for this site.
+The  [[https://tomrake.github.io][tomrake.github.io]]  has problems updating the [[https://github.com/daattali/beautiful-jekyll][beautiful-jekyll]] infrastructure.
+** test-blog
+The  [[https://github.com/test-blog][test-blog]] repo is a working proof of the hugo-blog concept and a prototype for [[https://tomrake.github.io][tomrake.github.io]]. 
+* Future Plans
+- Begin blogging posts on  [[https://tomrake.github.io][tomrake.github.io]]
+  - Review writing and English.
+- Add blog tag threads for projects:
+  - sbcl msys2 compilation.
+  - vlc-control project in progress.
+  - Explore Common Table Expressions in sqlite.
+    - Implement a pure Lisp filesystem personal metadata system.
