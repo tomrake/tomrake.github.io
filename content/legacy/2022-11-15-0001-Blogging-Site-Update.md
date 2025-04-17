@@ -18,7 +18,7 @@ Finally, I upload and push my local site to GitHub.
 
 All my pages need a special header which looks like this.
 
-```
+```text
 ---
 layout: post
 title: "Updating my site with org-mode"
