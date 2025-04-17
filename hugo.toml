@@ -106,5 +106,5 @@ url = "https://github.com/tomrake/beautifulhugo"
         ordered = false
 
 [outputs]
-    home = ["HTML", "RSS", "Algolia"]
+    home = ["HTML", "RSS"]
 
