@@ -35,3 +35,4 @@ The  [[https://github.com/test-blog][test-blog]] repo is a working proof of the 
   - vlc-control project in progress.
   - Explore Common Table Expressions in sqlite.
     - Implement a pure Lisp filesystem personal metadata system.
+- Add better taxnomies
