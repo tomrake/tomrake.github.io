@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SBCL on Windows, where is chocolatey package?
-catagories: [lisp, sbcl, windows, chocolatey]
+tags: [lisp, sbcl, windows, chocolatey]
 ---
 ## There is no current Chocolatey package from SBCL!
 

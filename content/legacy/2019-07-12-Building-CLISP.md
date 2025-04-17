@@ -2,6 +2,7 @@
 ---
 layout: post
 title: building CLISP
+tags: ['clisp','compiling-clisp']
 catagories: [CLISP, building, gitlab]
 ---
 # Building CLISP on gitlab

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Compile SBCL 2.0.0 under mingw64
+tags: ['sbcl','sbcl-compile','msys2']
 ---
 ## I am experimenting with a SBCL compiled for mingw64
 

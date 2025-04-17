@@ -1,6 +1,7 @@
 ---
 layout: post
 title: building CLISP - Dependencies
+tags: ['clisp','compiling-clisp']
 catagories: [CLISP, building, docker, dependencies]
 ---
 # Building CLISP dependencies.

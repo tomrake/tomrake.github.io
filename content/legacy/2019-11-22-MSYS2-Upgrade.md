@@ -1,6 +1,7 @@
 ---
 title: MSYS2 Upgrade
 layout: post
+tags: ['msys2','msys2-upgrade']
 ---
 ### [The source for info on MSYS2](https://www.msys2.org/)
 I refer to the [Detailed Install Guide](https://www.msys2.org/#installation) [Updating packages.](https://www.msys2.org/docs/updating/)
