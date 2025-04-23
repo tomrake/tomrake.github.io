@@ -25,10 +25,40 @@ github = "tomrake"
 bluesky = "tomrake"
 facebook = "tom.rake"
 mastodon = "mastodon.social/@tomrake"
+
+## Site Menus
+
+## HOME Menu
+
+
+[[menu.main]]
+name = "Home"
+weight = 1
+identifier = 'home'
+pre = "<i class='fa fa-heart'></i>&nbsp;"
+
+[[menu.main]]
+parent = "home"
+name = "Home"
+url = "/blog/"
+weight = 10
+
+[[menu.main]]
+parent = "home"
+name = "Blog"
+url = "/blog/"
+weight = 20
+
+
+## About Me Menu
+
 [[menu.main]]
 name = "About Me"
 url = "about"
 weight = 10
+
+
+## Projects Menu
 
 [[menu.main]]
 name = "Projects"
@@ -48,6 +78,8 @@ url = "https://tomrake.github.io/my-project-skel/"
 parent = "projects"
 name  = "SDL-Loader"
 url = "https://tomrake.github.io/sdl-loader/"
+
+## Lisp Resources Menu
 
 [[menu.main]]
 name = "LISP Resources"
@@ -73,6 +105,8 @@ parent = "lisp-resources"
 name = "Common-Lisp-On-Reddit"
 url ="https://www.reddit.com/r/common_lisp"
 
+## Theme Menu
+
 [[menu.main]]
 name = "Theme"
 identifier = "theme"
@@ -83,32 +117,7 @@ name = "Beautiful Hugo"
 url = "https://github.com/tomrake/beautifulhugo"
 
 
-# Global menu section
-# See https://gohugo.io/content-management/menus/
-[menu]
-    [[menu.main]]
-        name = "home"
-        url = "/"
-        weight = 1
-        identifier = 'home'
-        pre = "<i class='fa fa-heart'></i>&nbsp;"
-[[menu.main]]
-parent = "home"
-name = "Home"
-url = "/"
-weight = 10
 
-[[menu.main]]
-parent = "home"
-name = "Blog"
-url = "/blog/"
-weight = 20
-
-[[menu.main]]
-parent = "home"
-name = "Legacy Blog"
-url = "/legacy/"
-weight = 30
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
