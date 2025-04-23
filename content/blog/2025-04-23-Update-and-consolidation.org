@@ -1,0 +1,34 @@
+#+TITLE: 2025 Update and consolidation
+#+LAYOUT: page
+#+TAG: blog Update
+[[https://tomrake.github.io][My github blogs]] have proliferated over the years and many of my strategies were poorly thought out.
+Cleanup is in order after a few weeks of work with [[https:gohugo.io][Hugo]].
+The goal for the next week or so will be guided by the following strategy.
+
+* Blog post or README text?
+
+- Convert posts from various blog branches to this blog.
+  - [[https://tomrake.github.io/test-blog]] - delete soon.
+  - [[https://tomrake.github.io/my-blog]] - convert posts to my legacy portion.
+- Code Project blogs
+  I have several code projects with related blogs, this information needs to be divided between the project README and a related blog post.
+  Configuration and API details of a component should be in the README, along with a link to longer explanation posts and use case posts.
+  When explaining a problem to be solved, it should be in a blog post.
+
+* The Code projects
+- [[https://github.com/tomrake/the-invaders]]
+  - A SDL 1.2 early project.
+  - The SDL 2.0 attempt caused many headaches.
+- [[https://github.com/tomrake/sdl_loader]]
+  - Experimental code to define where the locations of SDL dll files can be found.
+  - Has a working/debugging blog
+  - Usefulness needs to be determined.
+- [[https://github.com/tomrake/my-project-skel]]
+  - Designed to add uniform blogging to any other repo.
+  - Update to the tomrake.github.io style repo. 
+- [[https://github.com/tomrake/msys2-for-externals]]
+  - Add a README and
+  - Add post on msys2 usage.
+- [[https://github.com/tomrake/sbcl-compile]]
+  - Add an explainer blog post
+  - Add a quick start README page.

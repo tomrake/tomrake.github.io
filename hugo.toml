@@ -87,12 +87,28 @@ url = "https://github.com/tomrake/beautifulhugo"
 # See https://gohugo.io/content-management/menus/
 [menu]
     [[menu.main]]
-        name = "Home"
+        name = "home"
         url = "/"
         weight = 1
         identifier = 'home'
         pre = "<i class='fa fa-heart'></i>&nbsp;"
+[[menu.main]]
+parent = "home"
+name = "Home"
+url = "/"
+weight = 10
 
+[[menu.main]]
+parent = "home"
+name = "Blog"
+url = "/blog/"
+weight = 20
+
+[[menu.main]]
+parent = "home"
+name = "Legacy Blog"
+url = "/legacy/"
+weight = 30
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
