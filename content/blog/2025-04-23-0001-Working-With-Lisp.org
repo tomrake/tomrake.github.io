@@ -2,13 +2,13 @@
 #+LAYOUT: page
 #+TAG: Lisp Windows SBCL
 
-I usually use SBCL, slime and emacs on Windows 11 OS.
-For the last several years I have been compiling SBCL from source using the msys2 system.
-SBCL typically does a source release monthly and for the last year they also release a compiled windows version soon after the source release.
+I usually use SBCL, slime and, emacs on Windows 11 OS.
+Compiling SBCL from source using the msys2 system has worked for years.
+Today, monthly source releases of SBCL typically include compiled Windows MSI.
 
-Before the release of quicklisp in 2010 find the source for Common Lisp packages was difficult.
-Zach Bean's quicklisp distriubtion of Common Lisp source software has made a big difference.
+The release of quicklisp, in 2010, has made finding the source for Common Lisp packages much easier.
+Zach Beane's quicklisp distribution of Common Lisp source software has made the difference.
 The ultralisp distribution allows work to be done between quicklisp monthly releases.
 
-In most cases I can find external libraries which work with Common Lisp foreign function interfaces which are drop in compatiable with Linux and MacOS versions.
-My most difficult case is with SDL 2 which has API interfaces built from specific compiler interfaces that are hard to find on Windows despite SDL 2 have Windows binaries.
+Finding external libraries that work with Common Lisp foreign function interfaces as drop-in compatible with Linux and MacOS versions is the norm for most cases.
+My most difficult case is with SDL 2 which has API interfaces built from specific compiler interfaces that are hard to find on Windows despite SDL 2 having native Windows binaries.
