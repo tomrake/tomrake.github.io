@@ -1,0 +1,24 @@
+#+layout: post
+#+title: "What is it about LISP?"
+#+comments: yes
+#+permalink: /:title/
+#+tags: [LISP]
+
+* LISP, Little Insignificant Stupid Parentheses.
+LISP has been jokingly maligned for much of my life.
+Others write praises and dub it Alien Technology or a Secret Weapon.
+
+LISP is a customizable compiler/interpreter where the source code modifies the compiler at run time.
+
+Generally, the model a compiler/interpreter in these four phases:
+- Lexical analysis - scan for token
+- Syntax analysis - build Abstract Syntax Tree, the AST.
+- Optimization - analyze and refine the AST
+- Machine Coding - Excutute the AST or encode the AST for later execution.
+
+In LISP the syntax is simple paren encoded lists called s-expressions. LISP source code is a paren encoded AST.
+The lexical READER strips away the parens under control of LISP functions and macros and a LISP data form, an s-expression, is produced.
+Because this data form is an AST of the program the AST can be optimized before it is converted to executable code.
+The data form is evaluated under LISP rules which are in many places customized by LISP function and macros from the LISP program source.
+The LISP PRINTER adds the parens format to output result form where necessary under the control of LISP functions and macros.
+
