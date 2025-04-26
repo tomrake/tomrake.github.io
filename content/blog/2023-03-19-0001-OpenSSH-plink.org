@@ -1,0 +1,72 @@
+#+layout: post
+#+title: OpenSSH v plink:known hosts - sync problems
+#+comments: yes
+#+tag: OpenSSH plink sync-problems
+If you use Emacs tramp on Windows and cygwin/msys2 derived shells you should be aware.
+The OpenSSH software stores host keys in ~/.ssh/known_hosts while plink, the Windows SSH client, stores host keys in the Windows registry, and
+the two stores are NOT synced.
+The emacs manual suggests using plink for ssh connection for Windows.
+
+Did you know that OpenSSH and plink have separate storage locations for remote known host keys?
+The trap I fell into I had a backup all by user files but, not my registry.
+I expected that when I reinstalled all my apps all the related registry items would be restored.
+
+* Known hosts are kept in two places
+
+1) plink stores the database of known hosts in the Registry.
+
+2) openSSH stores the database of known hosts in the files ~/.ssh/known_hosts
+
+
+* What you must clearly understand
+
+There are two separate lists for known hosts.
+Putty/plink clients are not compatible with OpenSSH clients on  the storage of known host keys.
+
+* Emacs, tramp and plink
+
+There is a connection method in emacs tramp for SSH connection named plink that is recommended for Windows systems.
+If you use gitbash or msys2 ssh then use the OpenSSH method to store known_hosts.
+If you use plink connection on emacs you now have two separate databases.
+
+* Adding  known  host keys
+
+Both openSSH and Putty prompt to verify and save a new host key.
+
+** putty connections
+
+To add a credential to plink you need to try to connect with putty because plink has a text ui.
+When tell putty to connect and save the location it is stored in the plink/putty database in the registry.
+The emacs tramp plink method can find it there and use  it to connect.
+
+** openSSH connections
+
+When you verify and save a new connection in openSSH it is stored in the file ~/.ssh/knownhosts.
+Where openSSH will find it and use it.
+These are the openSSH  users all linux, Windows openSSH, port for cygwin, msys2.
+
+
+* Putty/Plink storage
+
+Putty is release under MIT license.
+At this repo on December 12, 2022
+git://git.tartarus.org/simon/putty.git 
+
+If you look in the file windows/storage.c starting at line 258:
+#+begin_src c
+  int check_stored_host_key(const char *hostname, int port,
+			    const char *keytype, const char *key)
+{
+    /*
+     * Read a saved key in from the registry and see what it says.
+     */
+    strbuf *regname = strbuf_new();
+    hostkey_regname(regname, hostname, port, keytype);
+
+    HKEY rkey = open_regkey_ro(HKEY_CURRENT_USER,
+                               PUTTY_REG_POS "\\SshHostKeys"); 
+#+end_src
+See it gets the host key from the Windows Registry.
+* OpenSSH host key storage
+The keys are stored line by line in ~/.ssh/known_hosts
+or another configured location.
