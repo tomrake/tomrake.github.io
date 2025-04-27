@@ -1,5 +1,5 @@
 #+layout: post
-#+title: Easing the Common Lisp, Pain with .so and .dll file.
+#+title: CL+SSL has cross platform method of specifiation of external binaries.
 #+comments: yes
 #+tag: lisp external-binaries cl+ssh-method
 #+date: 2023-02-28
