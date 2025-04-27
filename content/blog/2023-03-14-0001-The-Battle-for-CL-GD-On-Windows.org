@@ -1,0 +1,22 @@
+#+OPTIONS: toc:nil num:nil
+#+layout: post
+#+title: The Battle for CL-GD on Windows.
+#+comments: yes
+#+tag: cl-gd cross-platform-failure cross-platform-lisp
+#+date: 2023-03-14
+To use graphical tools to display output from my Lisp programs running on Windows.
+Should I expect to be able to do this?
+
+1) SBCL does not have the fragile port message it used to have.
+2) quicklisp works on Windows
+3) The Common Lisp standardization is 39 years old and, the ANSI standard is 29 years old.
+4) Most of the Unix tools have been ported to Windows this is represented by the mingw64 effort.
+5) There are good FFI systems that work on  Windows, Linux, and MacOS.
+
+It is a common complaint in some online Lisp groups that some are frustrated with the lack of Foreign Library access in Common Lisp.
+However, the implementations are old, conceived, and maintained under Linux-only considerations, and the problems continue to propagate.
+
+The largest problems are with Shared Libraries that require glue code. The example I am using is CL-GD.
+Libgl has Linux, Mac, and Windows native C versions.
+The cl-gd was authored by Edi Weitz.
+
