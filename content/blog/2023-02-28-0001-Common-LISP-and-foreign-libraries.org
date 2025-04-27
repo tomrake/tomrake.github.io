@@ -1,0 +1,39 @@
+#+layout: post
+#+title: Easing the Common Lisp, Pain with .so and .dll file.
+#+comments: yes
+#+tag: lisp external-binaries cl+ssh-method
+#+date: 2023-02-28
+
+CL+SSL allows the user to directly specify the external binaries that is will use.
+
+I propose the general adoption of two methods of foreign library location currently implemented by CL+SSL.
+Most .dll or .so files are located by heuristics, which are guesses.
+CL+SSL added a static feature check and a method for users to specify other binaries.
+
+
+CL+SSL/src/reload.lisp has complex heuristics to define libssl and libcrypto.
+
+
+** Statically linked feature.
+
+The recent post [[https://blog.cddr.org/posts/2023-02-20-distributing-binaries-cl-ffi/][Distributing binaries with Common Lisp and foreign libraries]] illustrates how static linking with feature declaration is used.
+
+** Dynamic linked path method
+
+CL+SSL/config has two macros:
+
+#+begin_src lisp
+
+(define-libssl-path path)
+(define-libcrypto-path path)
+
+#+end_src
+
+In [[https://github.com/tomrake/config-ssl/blob/twr-msys/main.lisp]]
+
+Configure the cl+ssl libraries to be those from my local Msys2 locations.
+
+I use LISP to configure CL+SSL on Windows to find my updated libeay32.dll.and ssleay32.dll files from a recent OpenSSL distribution.
+
+Adding a config-app package to my system, which depends on CL+SSL/config.
+Then use the two macros with my well-defined store locations of ssleay32.dll and libeay32.dll.
