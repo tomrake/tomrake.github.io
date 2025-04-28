@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+#+layout: post
+#+title: The Fall of the Mighty
+#+tag: musk
+#+date: 2022-11-12
+* Why should we trust Elon Musk?
+Musk is the richest man in the world,
+certainly, his wealth is one reason, but when Carlos Slim had that title in 2010 and 2013 should we have trusted Musk less?
+
+* Formal study leads to a series of inconsistencies or incompleteness
+In popular culture, the concepts of [[https://en.wikipedia.org/wiki/Uncertainty_principle][Heisenberg's Uncertainty Principle]] and [[https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat][Schrödinger's cat]] allow many people to understand uncertainty.
+That understanding itself is incomplete perhaps this is just another [[https://en.wikipedia.org/wiki/Douglas_Hofstadter][Hofstadter]] Strange Loop.
+
+** Science and Logic are difficult struggles.
+The TV Movie [[https://www.imdb.com/title/tt1520274/][Dangerous Knowledge]] is the story of four brilliant mathematicians who discovered unsettling truths within mathematics.
+The four are Georg Cantor, Ludwig Boltzmann, Kurt Gödel and Alan Turing.
+
