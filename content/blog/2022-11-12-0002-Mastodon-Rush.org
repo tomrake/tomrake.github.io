@@ -1,0 +1,49 @@
+#+layout: post
+#+title: "Mastodon, All your base..."
+#+tag: mastodon
+There is a season...
+
+* Taking the back roads so we won't get weighed
+
+We have been building the information super highway for several decades we saw the "Under Construction" part of webpages in the 1990s.
+Old roads are still remembered and taken when a major bridge is removed things can get dicey.
+The problems of Musk and Twitter are the disregard for historical solutions to problems.
+Mastodon is being tested by the masses as a replacement for Twitter, taking up the "tooted" and "federated" rhetoric.
+
+
+
+** EFNet IRC network
+Eris is the Greek goddess of strife and discord.
+The first major IRC network was EFNet which stood for Eris Free Network.
+IRC attracted a series of hackers to attack the distributed server network as a game.
+The designers of [[https://www.w3.org/TR/activitypub/][Activity Pub]] which is the protocol that Mastodon is based on likely considered the problems of IRC networks during design.
+
+** Open Standards v. the Market
+[[https://xmpp.org/][XMPP]] is an open protocol XML-based protocol.
+Many chat and  messenger protocols have existed:  ICQ, AIM, and IRC.
+Google Talk now dropped by Google propelled the adoption.
+While an  XML text-based protocol seemed like the thing in the 1990s. The tech community did not support compatible chats with their proprietary systems.
+
+* Traffic cones
+
+Taking on "the bird." and construction ahead.
+
+** Content moderation
+Mastodon has rules for content moderation on a per-server basis.
+How will this scale with a large influx of new members is hard to tell,
+and will there be moderator burnout?
+
+** What about  "the culture"?
+Does "the culture" scale?
+Some of us bring our own culture from "the bird."
+The useful parts will survive while the other parts are discarded.
+
+* Work Crews
+Many of the webpages of the World Wide Web of the 1990s had these yellow and orange cliche road-themed under-construction signs
+because the information super highway was being built.
+After the dot-com bust these things became less common.
+Twitter was and will always be in the construction zone, as is most of our global communications.
+
+
+* ALL YOUR BASE ARE BELONG TO US
+Turn, turn, turn.
