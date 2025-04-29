@@ -1,6 +1,6 @@
 #+layout: post
 #+title: "Mastodon, All your base..."
-#+tag: mastodon
+#+tags[]: mastodon all-your-base
 There is a season...
 
 * Taking the back roads so we won't get weighed
