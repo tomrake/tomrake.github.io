@@ -2,7 +2,7 @@
 #+DATE: 2025-04-24T18:34:21-04:00
 #+DRAFT: true
 #+LAYOUT: page
-#+TAG: msys2
+#+TAGS[]: msys2
 * MSYS2
 [[https://www.msys2.org/][MSYS2]] is a collection of tools to build and host software on Windows.
 * How I use MSYS2

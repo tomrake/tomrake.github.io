@@ -1,6 +1,6 @@
 #+TITLE: Working with Common Lisp under Windows
 #+LAYOUT: page
-#+TAG: Lisp Windows SBCL
+#+TAGS[]: Lisp Windows SBCL
 
 I usually use SBCL, slime and, emacs on Windows 11 OS.
 Compiling SBCL from source using the msys2 system has worked for years.

@@ -49,6 +49,11 @@ name = "Blog"
 url = "/blog/"
 weight = 20
 
+[[menu.main]]
+parent = "home"
+name = "Tags"
+url = "/tags/"
+weight = 30
 
 ## About Me Menu
 

@@ -2,7 +2,7 @@
 #+title: What is it about LISP?
 #+comments: yes
 #+permalink: /:title/
-#+tags LISP
+#+tags[]: LISP
 
 * LISP, Little Insignificant Stupid Parentheses.
 LISP has been jokingly maligned for much of my life.

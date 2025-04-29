@@ -1,6 +1,6 @@
 #+TITLE: 2025 Update and consolidation
 #+LAYOUT: page
-#+TAG: blog Update
+#+TAGS[]: blog Update
 [[https://tomrake.github.io][My github blogs]] have proliferated over the years and many of my strategies were poorly thought out.
 Cleanup is in order after a few weeks of work with [[https:gohugo.io][Hugo]].
 The goal for the next week or so will be guided by the following strategy.

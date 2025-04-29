@@ -1,7 +1,7 @@
-#+layout: post
+#+layout: page
 #+title: OpenSSH v plink:known hosts - sync problems
 #+comments: yes
-#+tag: OpenSSH plink sync-problems
+#+TAGS[]: OpenSSH plink sync-problems
 If you use Emacs tramp on Windows and cygwin/msys2 derived shells you should be aware.
 The OpenSSH software stores host keys in ~/.ssh/known_hosts while plink, the Windows SSH client, stores host keys in the Windows registry, and
 the two stores are NOT synced.

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #+layout: post
-#+title: The Fall of the Mighty
-#+tag: musk
+#+TITLE: The Fall of the Mighty
+#+TAGS[]: musk twitter
 #+date: 2022-11-12
 * Why should we trust Elon Musk?
 Musk is the richest man in the world,

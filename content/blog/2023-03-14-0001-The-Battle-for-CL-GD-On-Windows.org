@@ -2,7 +2,7 @@
 #+layout: post
 #+title: The Battle for CL-GD on Windows.
 #+comments: yes
-#+tag: cl-gd cross-platform-failure cross-platform-lisp
+#+tags[]: cl-gd cross-platform-failure cross-platform-lisp
 #+date: 2023-03-14
 To use graphical tools to display output from my Lisp programs running on Windows.
 Should I expect to be able to do this?

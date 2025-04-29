@@ -2,7 +2,7 @@
 layout: post
 title: "Sauron buys Twitter!!"
 permalink: /:title/
-tags: [twitter]
+tags: [twitter, musk]
 ---
 
 ## BREAKING

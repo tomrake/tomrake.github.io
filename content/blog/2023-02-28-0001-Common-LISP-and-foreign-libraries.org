@@ -1,7 +1,7 @@
 #+layout: post
 #+title: CL+SSL has cross platform method of specifiation of external binaries.
 #+comments: yes
-#+tag: lisp external-binaries cl+ssh-method
+#+tags[]: lisp external-binaries cl+ssh-method
 #+date: 2023-02-28
 
 CL+SSL allows the user to directly specify the external binaries that is will use.
