@@ -122,7 +122,9 @@ name = "Beautiful Hugo"
 url = "https://github.com/tomrake/beautifulhugo"
 
 
-
+[Services]
+  [Services.Disqus]
+    Shortname = "tom-s-tech-and-stuff"
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
