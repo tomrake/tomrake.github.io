@@ -1,6 +1,6 @@
 
 
-baseURL = "https://tomrake.github.io"
+baseURL = "https://tomrake.github.io/test-blog"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -124,7 +124,7 @@ url = "https://github.com/tomrake/beautifulhugo"
 
 [Services]
   [Services.Disqus]
-    Shortname = "tom-s-tech-and-stuff"
+    Shortname = "tomrake-test-blog"
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
