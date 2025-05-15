@@ -1,0 +1,27 @@
+#+TITLE: The Waste of Early Optimization
+#+LAYOUT: page
+#+TAGS[]: data-centers energy-consuption causual-analysis
+
+* Can we really blame data center energy use on Pyhton?
+
+I am reacting to this article [[https://levelup.gitconnected.com/python-is-destroying-the-planet-951e83f22748]]
+This is really another version of the classic "Python considered dangerous" type headlines on Slashdot from the 1990s.
+This analysis is too siloed; the details do not matter in light of systematic global energy analysis; the focus on a particular computer language is inane.
+
+* To learn about problems engineers measure
+
+During the elimination of energy consumption, we must focus on global measurements.
+Deploying a systematic analysis of the energy contributions of our activities.
+
+* What are our uses
+
+Inefficient languages and coding that are not in product-critical areas do not need to be addressed.
+An iterative engineering process measures the entire product life, producing a profile that details what part of the product is problematic.
+Those parts are optimised until the performance criterion is met, where hardware changes or assembly language may be required.
+Repeat until done.
+
+* Our demands on  the datacenters drive their energy use
+
+The energy use of data centers should not be ignored.
+These energy uses largely grew along with our use of smartphones. 
+Distributed devices mean distributed energy use.
