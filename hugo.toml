@@ -126,6 +126,9 @@ url = "https://github.com/tomrake/beautifulhugo"
   [Services.Disqus]
     Shortname = "tom-s-tech-and-stuff"
 
+[Params]
+  showRelatedPosts = true
+
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
 [markup]
