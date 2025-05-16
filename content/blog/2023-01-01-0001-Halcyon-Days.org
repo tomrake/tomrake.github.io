@@ -1,0 +1,66 @@
+#+TITLE: Halcyon Days, Hype and Halucinations
+#+LAYOUT: page
+#+TAGS[]: tech-bust hype halucinations
+
+On January 1, 2023
+
+Toomas Hendrick Ilves wrote on Mastodon
+
+#+begin_quote
+Elon Musk's text messages are a skeleton key for the final,
+halcyon days of the tech boom, @cwarzel writes.
+https://www.theatlantic.com/technology/arc
+#+end_quote
+
+* This is a view of a largely unregulated market of mergers.
+
+The collapse of monopolistic walled gardens because of "Boy's Club" activities becoming public should not surprise anybody.
+The "Big Three" steel companies of 1960 are gone; their progenitors, the railroads, are in public hands.
+The boys club of Henry Clay Frick, Andrew Carnagie and Andrew Mellon who had enlarged the dam at the South Fork Hunting Club which collapsed causing the 1899 Johnstown Flood.
+
+* I needed to pick up the pieces
+
+My Halcyon Days were the first 51 years of my life.
+I had grown up in a rich family with a decades-long pattern of building successful enterprises,
+and a hunkering down during the bad times was destroyed by events of the "great recession".
+I was left unwinding my family holding, selling possessions, and caring for family members.
+The days in the 2005 bubble and the decades before always felt better.
+
+* Economics and Math
+
+As an engineering student, my sophomore economics class has always bothered me.
+Economics courses presented the same sketches and curves as Calculus classes, but the narratives were different.
+There was a heavy emphasis on the markets of Wall Street and the Chicago Board of Trade.
+It is my central thesis that the conflict between the Mathematical and Narrative thinking is a large dysfunctional region of our society.
+
+
+* Bitcoin returns us to the unstable US banking of the 19th century
+
+Bitcoin was designed to avoid central authority, such as governments and sovereign banks.
+Given the US experience with the lack of centralized banking between the Bank of the United States and the Federal Reserve,
+why should we expect Bitcoin to present a stable economic basis for our economy?
+The math brains of the blockchain do not perceive the social problems of runs on the banks of the 19th century.
+The math models do not address the underlying social needs.
+
+
+* Big Concentrations of Power are always risky
+
+Standing at the beginning of the 2009 financial crisis, a giant economic fantasy of complex derivatives, only understandable by Physics graduates, was the wrong model.
+Alan Greenspan, "the Maesto," cryptic pronouncements could never really cover the excesses of Wall Street and Washington.
+This model would collapse.
+I believe Washington failed to supervise the large financial lenders, letting them grow too big to fail, too big to regulate, too interconnected to campaigns.
+Too concentrated not to fail.
+Too big to not fail.
+
+* Math can lead to Madness
+
+Look at the math of Cantor, Boltzman, Godel, and Turing.
+Math and logic can lead us to endless recursive circles.
+Adam Smith's invisible hands are sometimes an illusion.
+
+* Hype and Halucinations
+
+The banker always desires more control in attempts to defer the costs of risks.
+Hype gets funding, but the enterprise need to deliver.
+Outlandish claims need to results in outlandish compensation.
+Today we label the outlandish as halucinations.
